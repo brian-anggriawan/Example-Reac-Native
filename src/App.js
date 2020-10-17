@@ -1,17 +1,23 @@
-import React, { Component } from 'react';
+import React, { Component, useState, useEffect } from 'react';
 import { Text, View, Image, TextInput, StyleSheet, ScrollView } from 'react-native';
 import macbook from './assets/images/download.jpg';
 import FlexBox from './pages/FlexBox';
 import Position from './pages/Position';
+import PropsDinamis from './pages/PropsDinamis';
+import StateDinamis from './pages/StateDinamis';
+import Communication from './pages/Communication';
 
 
 const App = () => {
     return (
         <View>
             <ScrollView>
-                <StyleSampleComponent />
-                <FlexBox />
-                <Position />
+                {/* <StyleSampleComponent /> */}
+                {/* <FlexBox />
+                <PropsDinamis />
+                <StateDinamis /> */}
+                {/* <Position /> */}
+                <Communication />
             </ ScrollView>
         </View>
         
